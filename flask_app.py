@@ -20,3 +20,7 @@ def register():
 @app.route('/newsletter')
 def newsletter():
     return render_template('newsletter.html')
+
+@app.route('/test')
+def testapp():
+    return render_template('test.html')
